@@ -84,6 +84,8 @@ class MainWindow(QtWidgets.QMainWindow):
         dlg.setGeometry(500, 500, 500, 50)
 
         dlg.exec()
+        with open("questions.txt", "w") as my_file:
+            my_file.writelines(str(test_with_questions))
         return test_with_questions
 
 

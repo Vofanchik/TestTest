@@ -1,0 +1,1 @@
+[{'question': 'sfd', 'variants': ['', 'sf']}, {'question': 'sf', 'variants': ['sf', '']}, {'question': '', 'variants': ['', '']}]
